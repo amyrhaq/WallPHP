@@ -2,10 +2,10 @@
 
 //define constants for db_host, db_user, db_pass, and db_database
 //adjust the values below to match your database settings
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'root'); //set DB_PASS as 'root' if you're using MAMP
-define('DB_DATABASE', 'test_users');
+define('DB_HOST', 'village88.com');
+define('DB_USER', 'codingdojoremote');
+define('DB_PASS', 'imninja'); //set DB_PASS as 'root' if you're using MAMP
+define('DB_DATABASE', 'codingdo_test');
 
 //connect to database host
 $connection = mysql_connect(DB_HOST, DB_USER, DB_PASS) or die('Could not connect to the database host (please double check the settings in connection.php): ' . mysql_error());
